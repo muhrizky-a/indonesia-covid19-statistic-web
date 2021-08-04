@@ -1,0 +1,63 @@
+error-notification{
+    padding-top: 10px;
+	
+	display: none;
+	position: absolute;
+    top: 348px;
+    left: 32px;
+	
+    background-color: #00000078;	
+    border-radius: 5px;
+}
+
+.error-message{
+	border-radius: 10px;
+	background-color: #ddd;
+	margin: auto;
+	padding: 20px;
+	border: 1px solid #888;
+    width: 60%;
+    height: 60%;
+}
+
+.error-message span{
+	font-weight: bold;
+}
+
+.error-message p{
+	padding: 20px 0;
+}
+
+.error-message > button {
+    width: 125px;
+    cursor: pointer;
+    margin-left: auto;
+    padding: 15px;
+    border: 2px solid #63101e;
+    background-color: #63101e;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.error-message h2, .error-message > button:disabled {
+    background-color: #ddd;
+    color: #63101e;
+}
+
+@media screen and (max-width: 1000px){
+    error-notification{
+		top: 568px;
+	}
+}
+
+@media screen and (max-width: 700px){
+    error-notification{
+		top: 608px;
+	}
+
+	.error-message{
+		
+		height: 40%;
+	}
+}

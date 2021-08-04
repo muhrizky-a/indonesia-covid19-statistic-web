@@ -1,0 +1,79 @@
+
+kasus-summary{
+    text-align: center;
+}
+
+.container {
+    margin: 20px;
+}
+
+.kasus-item, .item-detail{
+    float: left;    
+}
+
+.item-detail{
+    width: 50%;
+}
+
+.enabled-flex{
+    display: flex;
+}
+
+
+.statistik-kasus, .data-detail{
+    border: 2px solid #ccc;
+    background-color: #eee;
+    border-radius: 5px;
+}
+
+.statistik-kasus{
+    height: 318px;
+}
+
+.data-detail{
+    margin-bottom: 10px;
+}
+
+.statistik-kasus h2{
+    text-align: center;
+    margin: 20px
+}
+
+provinsi-chart, kasus-chart { 
+    margin: 20px;
+    display: block;
+}
+
+.provinsi-chart-container{
+    position: relative;
+    height: 250px;
+    border-radius: 10px;
+    
+}
+provinsi-chart { 
+    text-align: center;
+    position: absolute;
+    left: -30px;
+    width: 100%;
+    height: 200px;
+}
+
+kasus-chart { 
+    height: 320px;
+}
+
+.item-detail, .kasus-chart, .data-detail {
+    padding: 10px;
+}
+
+
+option{
+    width: 100px;
+}
+
+@media screen and (max-width: 700px){
+    .item-detail{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}

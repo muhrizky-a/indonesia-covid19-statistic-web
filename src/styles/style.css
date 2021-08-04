@@ -1,0 +1,27 @@
+
+@import "appbar.css";
+@import "kasus-summary.css";
+@import "provinsi-list.css";
+@import "searchbar.css";
+@import "error-notification.css";
+
+
+@import "body.css";
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: #ddd;
+   
+}
+
+main {
+    width: 100%;
+    margin: 32px auto;
+    
+}

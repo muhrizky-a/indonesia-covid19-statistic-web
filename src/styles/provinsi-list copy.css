@@ -1,0 +1,31 @@
+
+.placeholder {
+    font-weight: lighter;
+    color: rgba(0,0,0,0.6);
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+ }
+  
+ provinsi-item {
+   margin: 10px 0;
+   display: block;
+   background-color: white;
+ }
+
+ .provinsi-info {
+   text-align: left;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+   border-radius: 10px;
+   overflow: hidden;
+   padding: 10px;
+ }
+
+ .provinsi-info th{
+    width: 175px;
+  }
+
+ .provinsi-info h2 {
+    font-weight: lighter;
+ }

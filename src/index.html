@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Statistik COVID-19</title>
+</head>
+<body>
+    <header>
+        <app-bar></app-bar>
+    </header>
+    <main>
+        <div class="container">
+                <kasus-summary></kasus-summary>
+            <div class="item-detail">
+                <div class="statistik-kasus">
+                    <h2>Statistik COVID-19 di Indonesia</h2>
+                    <kasus-chart></kasus-chart>
+                    
+                </div>
+            </div>
+            <div class="item-detail">
+                <div class="data-detail">
+                    <div class="provinsi-chart-container">
+                        <provinsi-chart></provinsi-chart>
+                    </div>
+                </div>
+                <div class="data-detail">
+                    <search-bar></search-bar>
+                    <provinsi-item></provinsi-item>
+                </div>
+            </div>
+        </div>
+        <error-notification></error-notification>
+    </main>
+</body>
+</html>

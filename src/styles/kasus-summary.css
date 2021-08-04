@@ -1,0 +1,102 @@
+.summary-item{
+    border: 2px solid #ccc;
+    background-color: #eee;
+    border-radius: 5px;
+    height: 244px;
+    margin: 0 10px;
+    padding: 10px;
+}
+
+.kasus-item{
+    float: left;
+    width: 25%;
+    padding: 10px;
+}
+
+.item-box{
+    height: 200px;
+    border-radius: 10px;
+    -webkit-transition:all 500ms ease-out;
+    -moz-transition:all 500ms ease-out;
+    -o-transition:all 500ms ease-out;
+    transition:all 500ms ease-out;
+}
+
+.item-box:hover{
+    color: #eed;
+}
+
+.item-box h1{
+    font-size: 400%;
+    padding-top: 50px;
+}
+
+.item-box span{
+    font-size: 20px;
+}
+
+
+.kasus-konfirmasi, .kasus-perawatan, .kasus-sembuh, .kasus-meninggal{
+    border: 2px solid;
+}
+
+.kasus-konfirmasi{
+    border-color: #3081df;
+    color: #3081df;
+}
+.kasus-perawatan{
+    border-color: #dda302;
+    color: #dda502;
+}
+.kasus-sembuh{
+    border-color: #4caf50;
+    color: #4caf50;
+}
+.kasus-meninggal{
+    border-color: #f44336;
+    color: #f44336;
+}
+
+.kasus-konfirmasi:hover{
+    background-color: #3081df;
+}
+.kasus-perawatan:hover{
+    background-color: #dda502;
+}
+.kasus-sembuh:hover{
+    background-color: #4caf50;
+}
+.kasus-meninggal:hover{
+    background-color: #f44336;
+}
+
+
+
+@media screen and (max-width: 1000px){
+    .summary-item{
+        height: 464px;
+    }
+
+    .kasus-item{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 700px){
+    .summary-item{
+        height: 504px;
+    }
+
+    .kasus-item{
+        width: 100%;
+    } 
+
+    .item-box{
+        height: 100px;
+    }
+
+    .item-box h1{
+        font-size: 50px;
+        padding-top: 10px;
+    }
+}
